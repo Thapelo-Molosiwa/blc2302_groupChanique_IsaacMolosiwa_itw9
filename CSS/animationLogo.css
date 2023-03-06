@@ -1,0 +1,9 @@
+#anim{
+    width: 50;
+    height: 50;
+    font-size: 225px;
+    text-align: center;
+    border-radius: 50px;
+    background-color: aqua;
+    margin: 200px;
+}
