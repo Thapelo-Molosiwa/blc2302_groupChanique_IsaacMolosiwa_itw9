@@ -1,9 +1,29 @@
-#anim{
-    width: 50;
-    height: 50;
-    font-size: 225px;
-    text-align: center;
-    border-radius: 50px;
+/*the animation code*/
+@keyframes animatedFacebook {
+    0% {background-color: #2196F3;}
+    25% {background-color: #2196F3;
+        transform: translateY(250px);
+         transform: rotate(90deg);}
+    50% {background-color: #005ba5;
+        border-radius: 100px;
+        transform:rotate(-90deg)}
+    75%{background-color:#2196F3 ;
+    transform: translateX(250px);}
+    100%{background-color: blue;}
+    
+    
+}
+
+
+/*The elements to apply the animation to */
+#image img{
+    width: 200px;
+    height: 200px;
+    
+    align-content: center;
     background-color: aqua;
-    margin: 200px;
+    animation-name: animatedFacebook;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transform: translateX(0px);
 }
